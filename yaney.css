@@ -132,7 +132,7 @@ nav {
 .wrapper1 {
     width: 90%;
     /* background-color: #000000; */
-    background-image: url("/image/header-background.jpg");
+    background-image: url("/");
     /* box-shadow: 2px .8rem 1rem #b7b7b9; */
     margin-left: 5%;
 }

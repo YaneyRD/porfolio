@@ -482,21 +482,24 @@ h2 {
 }
 
 /* start professional skills */
-.skills_head{
+.skills_head {
     width: 100%;
     margin-bottom: 100px;
     display: grid;
     place-items: center;
     text-align: center;
 }
-.skills_head h2{
+
+.skills_head h2 {
     font-size: 30px;
     margin-bottom: -5px;
 }
-.skills_head h2 span{
+
+.skills_head h2 span {
     color: #e74d06;
 }
-.skills_main{
+
+.skills_main {
     width: 92%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -506,16 +509,19 @@ h2 {
     /* padding-top: 4%; */
     padding-bottom: 5%;
 }
-.skills_main .skill_bar .info{
+
+.skills_main .skill_bar .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  0 10px;
+    padding: 0 10px;
 }
-.skill_bar .info p:nth-child(2){
+
+.skill_bar .info p:nth-child(2) {
     font-weight: 500;
 }
-.skill_bar .bar{
+
+.skill_bar .bar {
     width: 100%;
     height: 20px;
     background-color: rgba(0, 0, 0, 0.144);
@@ -523,78 +529,144 @@ h2 {
     margin-top: 5px;
     position: relative;
 }
-.skill_bar .bar span{
+
+.skill_bar .bar span {
     width: 50%;
     height: 100%;
     position: absolute;
     background-color: #15b4ea;
 }
-.skill_bar .bar .html{
+
+.skill_bar .bar .html {
     width: 90%;
     animation: html 2s;
 }
+
 @keyframes html {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 90%;
     }
 }
-.skill_bar .bar .css{
+
+.skill_bar .bar .css {
     width: 85%;
     animation: css 2s;
 }
+
 @keyframes css {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 85%;
     }
 }
-.skill_bar .bar .sql{
+
+.skill_bar .bar .sql {
     width: 60%;
     animation: sql 2s;
 }
+
 @keyframes sql {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 60%;
     }
 }
-.skill_bar .bar .js{
+
+.skill_bar .bar .js {
     width: 80%;
     animation: css 2s;
 }
+
 @keyframes js {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 80%;
     }
 }
-.skill_bar .bar .react{
+
+.skill_bar .bar .react {
     width: 55%;
     animation: react 2s;
 }
+
 @keyframes react {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 55%;
     }
 }
-.skill_bar .bar .node{
+
+.skill_bar .bar .node {
     width: 55%;
     animation: node 2s;
 }
+
 @keyframes node {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 55%;
     }
 }
 
-
 /* end professional skills */
+
+/*  start Timeline custom component */
+.timeline-card {
+    position: relative;
+    margin-left: 16px;
+}
+
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+
+.timeline-body {
+    border-left: 2px solid #E6E9ED;
+}
+
+.timeline-card-primary:before {
+    border-color: var(--bs-primary);
+}
+
+.timeline-card-info:before {
+    border-color: var(--bs-info);
+}
+
+.timeline-card-secondary:before {
+    border-color: var(--bs-secondary);
+}
+
+.timeline-card-success:before {
+    border-color: var(--bs-teal);
+}
+
+/*  end Timeline custom component */

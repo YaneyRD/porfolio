@@ -27,11 +27,11 @@ nav {
 
 /* start button */
 .header_menu_container {
-    min-height: 50px;
-    width: 600px;
+    min-height: 3.125em;
+    width: 37.5em;
     float: right;
-    margin-top: 20px;
-    /* margin-left: 18px; */
+    margin-top: 1.25em;
+    margin-right: 4.0625em;
     /* background-color: #d61d23; */
 }
 
@@ -631,7 +631,7 @@ h2 {
 }
 
 .timeline-card-success:before {
-    border-color: var(--bs-teal);
+    border-color: rgb(137, 208, 30);
 }
 
 /*  end Timeline custom component */
@@ -1594,4 +1594,88 @@ h6 {
   }
 
 /* end button */
+
+/* start portfolio */
+.portfolio-section {
+  margin: 2rem 0 1rem !important;
+}
+
+.g-0 {
+  --bs-gutter-x: 0
+}
+
+.g-0 {
+  --bs-gutter-y: 0
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-left: 9%;
+}
+
+.img-fluid1 {
+  max-width: 91%;
+  height: auto;
+  /* margin-left: 9%; */
+}
+
+img {
+  vertical-align: middle
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+  margin-left: 5%;
+}
+
+.m-4 {
+  margin: 1.5rem;
+}
+
+.mt-md-2 {
+  margin-top: .5rem;
+}
+
+.text-teal {
+  color: rgb(18, 210, 149);
+}
+
+.text-small {
+  font-size: 0.85rem;
+}
+
+.text-muted {
+  color: #757575;
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3rem + .6vw)
+}
+
+@media(min-width:1200px) {
+
+  .h3,
+  h3 {
+    font-size: 1.75rem
+  }
+}
+
+/* .portfolio-reverse {
+  flex-direction: column-reverse;
+} */
+
+.portfolio-reverse .text-end {
+  text-align: start;
+}
+
+.text-end {
+  text-align: right;
+}
+/* end portfolio */
 

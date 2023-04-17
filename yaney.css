@@ -513,21 +513,6 @@ h2 {
     }
 }
 
-.skill_bar .bar .css {
-    width: 85%;
-    animation: css 2s;
-}
-
-@keyframes css {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 85%;
-    }
-}
-
 .skill_bar .bar .sql {
     width: 60%;
     animation: sql 2s;
@@ -586,6 +571,21 @@ h2 {
     100% {
         width: 55%;
     }
+}
+
+.skill_bar .bar .native {
+  width: 55%;
+  animation: native 2s;
+}
+
+@keyframes native {
+  0% {
+      width: 0%;
+  }
+
+  100% {
+      width: 55%;
+  }
 }
 
 /* end professional skills */
